@@ -37,6 +37,7 @@ class MyHomePage extends StatelessWidget {
             ElevatedButton(onPressed: (){
              showDialogLogin(context);
             }, child: const Text("LOGIN",style: TextStyle(fontWeight: FontWeight.bold),)),
+
             ElevatedButton(onPressed: (){
                showDialogReg(context);
             },
